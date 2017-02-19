@@ -32,6 +32,8 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 4.7.0'
 # Use Hirb gem for better console data presentation
 gem 'hirb'
+# Use Devise for user authentication
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
