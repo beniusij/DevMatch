@@ -34,6 +34,10 @@ gem 'font-awesome-sass', '~> 4.7.0'
 gem 'hirb'
 # Use Devise for user authentication
 gem 'devise'
+# Use Stripe for payment processing
+gem 'stripe'
+# Use Figaro to securily store ENV variables
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
