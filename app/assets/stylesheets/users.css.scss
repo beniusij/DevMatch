@@ -5,13 +5,15 @@
 
 span.job-title-icon {
   display: inline;
-  width: 30px;
-  height: 30px;
   border: 2px solid #2e6da4;
   border-radius: 4px;
   background-color: #337ab7;
   color: white;
   text-align: center;
+  i {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .well.profile-block {
