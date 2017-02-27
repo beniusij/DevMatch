@@ -35,7 +35,7 @@ gem 'hirb'
 # Use Devise for user authentication
 gem 'devise'
 # Use Stripe for payment processing
-gem 'stripe'
+gem 'stripe', '1.48.0'
 # Use Figaro to securily store ENV variables
 gem 'figaro'
 # Use Paperclip for image upload
